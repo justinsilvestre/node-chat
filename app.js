@@ -3,7 +3,7 @@ var socket = require('socket.io')
 
 var app = require('express')();
 var s = http.createServer(app);
-var io = socket(app.listen(8000));
+var io = socket(app.listen(process.env.PORT || 8000));
 
 
 app.get('/', function(request, response) {
