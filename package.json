@@ -1,0 +1,24 @@
+{
+  "name": "node_chat",
+  "version": "1.0.0",
+  "description": "Trying out node",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.1",
+    "socket.io": "^1.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
+  },
+  "keywords": [
+    "node",
+    "chat"
+  ],
+  "author": "Justin Silvestre",
+  "license": "MIT",
+  "engines": {
+    "node": "0.12.2"
+  }
+}
